@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#57955C</color>
+    <color name="red">#C84F4F</color>
+    <color name="blue">#3263C4</color>
+
+    <color name="line">#202224</color>
+    <color name="background">#151618</color>
+    <color name="text">#DEE0E4</color>
+    <color name="tab_def_back">@color/line</color>
+    <color name="tab_def_text">#898989</color>
+    <color name="tab_sel_back">#36393C</color>
+    <color name="tab_sel_text">@color/text</color>
+</resources>

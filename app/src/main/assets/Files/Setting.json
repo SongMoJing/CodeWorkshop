@@ -1,0 +1,32 @@
+{
+  "global": {
+    //临时文件位置
+    "TempPath": "self:/cache/TempFile/",
+    // 默认项目位置
+    "ProjectPath": "/storage/emulated/0/Code/Project/",
+    // 默认Git位置
+    "GitPath": "/storage/emulated/0/Code/Git/",
+    // 目标暂存位置，基于项目路径的相对路径
+    "TargetPath": "../.target/",
+    // 文件选择器默认起始位置
+    "FileSelectorPath": "/storage/emulated/0/Code/",
+    // 启用外设键盘快捷键
+    "AllowedExternalKeyboardShortcuts": true
+  },
+  "editor": {
+    // 默认编码
+    "DefaultEncoding": "UTF-8",
+    // 显示行号
+    "ShowLine": true,
+    // 固定行号
+    "FixedLine": true,
+    // 自动换行
+    "AutoWrap": true,
+    // 行高
+    "LineHeight": 8,
+    // 自动补全
+    "AutoComplete": true,
+    // 主题: {"Abyss", "darkGreen", "keen"}
+    "theme": 0
+  }
+}
