@@ -1,5 +1,6 @@
 package com.funcablaze.codeworkshop.Fragment.Editor;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,6 +29,7 @@ public class Web extends Base {
         return Root;
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     private void init() {
         WebView webView = Root.findViewById(R.id.webView);
         WebSettings settings = webView.getSettings();

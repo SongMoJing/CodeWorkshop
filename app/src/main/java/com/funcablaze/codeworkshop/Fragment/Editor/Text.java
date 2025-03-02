@@ -81,15 +81,17 @@ public class Text extends Base {
                     case ".kt" -> "source.kotlin";
                     case ".lua" -> "source.lua";
                     case ".py" -> "source.python";
+                    case ".ql" -> "source.qingluan";
                     case ".rs" -> "source.rust";
                     case ".sql" -> "source.sql";
                     case ".xml" -> "text.xml";
                     case ".yam" -> "source.yaml";
-                    default -> "text";
+                    default -> "source.txt";
                 }, ProjectManager.AutoComplete));
             }
             editor.setColorScheme(TextMateColorScheme.create(ThemeRegistry.getInstance()));
             editor.setEditorLanguage(MainActivity.languages.get(suffix));
+            editor.setHighlightBracketPair(false);
         } catch (Exception ignore) {}
     }
 

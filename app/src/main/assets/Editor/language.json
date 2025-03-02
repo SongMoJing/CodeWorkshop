@@ -114,6 +114,12 @@
       "languageConfiguration": "Editor/textmate/sql/language-configuration.json"
     },
     {
+      "grammar": "Editor/textmate/text/syntaxes/text.tmLanguage.json",
+      "name": "Text",
+      "scopeName": "source.txt",
+      "languageConfiguration": "Editor/textmate/text/language-configuration.json"
+    },
+    {
       "grammar": "Editor/textmate/xml/syntaxes/xml.tmLanguage.json",
       "name": "XML",
       "scopeName": "text.xml",

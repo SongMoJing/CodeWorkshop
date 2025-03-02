@@ -50,8 +50,9 @@ public class TreeList extends RecyclerView.Adapter<TreeList.FileViewHolder> {
         // 显示文件或文件夹名称
         holder.textView.setText(item.getName());
         holder.textView.setTypeface(ProjectManager.DefaultFont);
+        holder.textView.setSingleLine(true);
         // 根据层级调整左边距
-        holder.back.setPadding(24 * item.getLevel(), 0, 0, 0);
+        holder.back.setPadding(20 * item.getLevel(), 0, 0, 0);
         // 设置图标
         if (item.isFolder()) {
             holder.FileIconView.setImageResource(item.isExpanded() ? R.drawable.icon_files_open : R.drawable.icon_files_close);

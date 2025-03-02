@@ -34,7 +34,7 @@ public class File extends Fragment {
 
 	private void _init() {
 		binding.fileList.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
-		binding.fileList.setHasFixedSize(true);
+//		binding.fileList.setHasFixedSize(true);
 		// 初始化数据
 		TreeSet<FileItem> rootItems = getSampleData();
 		adapter = new TreeList(getContext(), rootItems);
